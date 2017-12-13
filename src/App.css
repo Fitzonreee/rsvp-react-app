@@ -1,5 +1,12 @@
 /*------ Global -------*/
 
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
 
 /*------ Header -------*/
 
@@ -7,4 +14,41 @@ header {
   background: #2c3e50;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*------ Reponses -------*/
+
+.responses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+
+}
+
+
+/*------ Response component -------*/
+
+.responses li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 1em;
+  width: 100%;
+}
+
+.responses li span {
+  flex-direction: column;
+  display: block;
+  border: 1px solid blue;
+}
+
+.repsonses li button {
+  border: 1px solid red;
+}
+
+.responses li label {
+  border: 1px solid green;
 }

@@ -40,7 +40,7 @@ class App extends Component {
               </tr>
             </tbody>
           </table>
-          <ul>
+          <ul className="responses">
             <li className="pending"><span>Safia</span></li>
             <li className="responded"><span>Iver</span>
               <label>
