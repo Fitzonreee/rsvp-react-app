@@ -6,15 +6,44 @@
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
+  font-weight: 300;
 }
 
 /*------ Header -------*/
 
 header {
-  background: #2c3e50;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* fallback for old browsers */
+  /*background: #2c3e50; */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: -webkit-linear-gradient(to right, #3498db, #2c3e50);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background: linear-gradient(to right, #3498db, #2c3e50); */
 }
+
+header h1 {
+  text-align: center;
+  padding: 0.5em;
+  letter-spacing: 2px;
+}
+
+header form {
+  display: flex;
+  height: 5vh;
+}
+
+header form input {
+  flex: 3;
+  border: 1px solid lightgray;
+}
+
+header form button {
+  flex: 1;
+  border: none;
+  outline: 1px solid lightgray;
+  background: none;
+}
+
+/*------ Main -------*/
 
 /*------ Reponses -------*/
 

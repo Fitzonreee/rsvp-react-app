@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import plusIcon from './plus.svg';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
           <h1>RSVP</h1>
           <form>
             <input type="text" value="" placeholder="Invite Someone" />
-            <button type="submit" name="submit" value="submit">Submit</button>
+            <button type="submit" name="submit" value="submit">Add</button>
           </form>
         </header>
         <div className="main">
